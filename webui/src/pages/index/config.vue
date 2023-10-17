@@ -34,9 +34,9 @@ definePage({
       </div>
 
       <div fx-cer justify-end gap-8px mt-20px>
-        <ab-button type="warn" @click="getConfig">
-          {{ $t('config.cancel') }}
-        </ab-button>
+        <ab-button type="warn" @click="getConfig">{{
+          $t('config.cancel')
+        }}</ab-button>
         <ab-button @click="setConfig">{{ $t('config.apply') }}</ab-button>
       </div>
     </div>

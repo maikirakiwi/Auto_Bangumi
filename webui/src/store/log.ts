@@ -10,9 +10,7 @@ export const useLogStore = defineStore('log', () => {
       log.value = value;
     });
 
-    if (isLoggedin.value) {
-      execute();
-    }
+    execute();
   }
 
   const { execute: reset, onResult: onClearLogResult } = useApi(
