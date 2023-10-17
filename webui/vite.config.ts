@@ -92,7 +92,7 @@ export default defineConfig({
   },
   build: {
     cssCodeSplit: false,
-    outDir: '../bin/dist',
+    outDir: '../../bin/webui',
   },
   resolve: {
     alias: {
